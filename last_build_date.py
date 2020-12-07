@@ -3,7 +3,7 @@ import sys
 from bs4 import BeautifulSoup
 contents = ""
 
-with open('../commoncriteria.github.io/index.html.bak', 'r') as fp:
+with open('../csfc.github.io/index.html.bak', 'r') as fp:
     contents = fp.read()
 
 soup = BeautifulSoup(contents, 'html.parser')
