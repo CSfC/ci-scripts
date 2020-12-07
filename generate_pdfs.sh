@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -ev
-PP_JOBS_DIR=$TRAVIS_BUILD_DIR/commoncriteria.github.io/pp
+PP_JOBS_DIR=$TRAVIS_BUILD_DIR/csfc.github.io/pp
 PP_NAME=$(basename $TRAVIS_REPO_SLUG)
 
 # Create PDF files
