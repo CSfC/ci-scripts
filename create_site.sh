@@ -5,7 +5,7 @@ set -ev
 # it'll do for now.
 IDEAL_TRANSFORMS="T_VER=$(cat $TRAVIS_BUILD_DIR/ci-scripts/CurrentTransforms.txt)"
 
-PP_JOBS_DIR=$TRAVIS_BUILD_DIR/commoncriteria.github.io
+PP_JOBS_DIR=$TRAVIS_BUILD_DIR/csfc.github.io
 CURRENTLY_BUILDING=$(basename $TRAVIS_REPO_SLUG)
 function info(){
     echo $1 >&2
@@ -146,7 +146,7 @@ function createWebsite {
               <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
               <!--Navigation bar Header-->
               <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">Common Criteria Documents</a>
+                <a href="#!" class="brand-logo">CSfC Documents</a>
               </div>
             </nav>
 
@@ -173,7 +173,7 @@ EOF
 	    info "$aa: T_VER is $T_VER"
 	    info "T_STATUS is $T_STATUS"
             echo "<li>
-                <div class='collapsible-header'><span class='pp_title$T_STATUS'><i class='material-icons'>folder</i>$aa</span><span class='build_status'><img class='build_status' src='https://travis-ci.com/commoncriteria/$aa.svg?branch=master'></span></div>"
+                <div class='collapsible-header'><span class='pp_title$T_STATUS'><i class='material-icons'>folder</i>$aa</span><span class='build_status'><img class='build_status' src='https://travis-ci.com/CSfC/$aa.svg?branch=master'></span></div>"
             echo "<div class='collapsible-body'>
                     <table class='bordered striped'>
                       <thead>
