@@ -127,7 +127,7 @@ function createWebsite {
 
           <!--Let browser know website is optimized for mobile-->
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-          <title>Common Criteria Protection Profile Schema Documentation</title>
+          <title>CSfC Protection Profiles</title>
         </head>
 
         <body>
